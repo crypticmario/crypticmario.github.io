@@ -18,7 +18,7 @@ window.SITE = {
   linkedin: "https://www.linkedin.com/in/richardanekwe",
   github: "https://github.com/crypticmario",
   cvFile: "",   // e.g. "Richard_Anekwe_CV.pdf" — put the file in this folder and name it here to show a "Download CV" button
-  photo: "",    // e.g. "photo.jpg" — put a square-ish photo in this folder and name it here. Leave "" for the initials badge.
+  photo: "photo.jpg",    // e.g. "photo.jpg" — put a square-ish photo in this folder and name it here. Leave "" for the initials badge.
 
   // Short availability line shown in the hero (leave "" to hide)
   availability: "Open to people-analytics, research and responsible-AI roles, and PhD opportunities in computational social science.",
@@ -55,8 +55,8 @@ window.SITE = {
       finding: "All three refusal-capable models refused significantly more often for bottom-10-passport countries on negative prompts. Safety alignment tracks geopolitical privilege.",
       meta: "Supervisors: Prof. Mike Quayle & Dr. Ana Jovancevic, University of Limerick · Submitted June 2026",
       tags: ["Python", "LLM auditing", "statsmodels", "AI fairness"],
-      link: "",       // add a preprint or GitHub link here when it's public
-      linkText: "Read more"
+      link: "https://github.com/crypticmario/algorithmic-taboos",       // add a preprint link here when it's public
+      linkText: "View the code on GitHub"
     },
     {
       tag: "Training & Evaluation",
